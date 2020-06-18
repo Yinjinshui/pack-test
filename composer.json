@@ -1,0 +1,19 @@
+{
+    "name": "pack/test",
+    "description": "pack test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "json",
+            "email": "json_yin@fionacos.com"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Pack\\Test\\":"src/"
+        }
+    }
+}
