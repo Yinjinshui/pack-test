@@ -62,7 +62,8 @@
     
 # 5.浏览器或者postman访问
  
- demo:http://www.lar-demo.com/zidicomposer
+ 浏览器输入访问地址:http://www.lar-demo.com/zidicomposer
+ 
  输出：   hello world!! 
  
 # 6.详细说明地址
