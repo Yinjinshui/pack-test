@@ -21,7 +21,9 @@
 
 
 
-#2执行更新
+
+# 2.执行更新
+
 
     D:\laravel_www\blog>composer update pack/test
     Loading composer repositories with package information                                               Updating dependencies (including require-dev)
@@ -42,3 +44,7 @@
     25 packages you are using are looking for funding.
     Use the `composer fund` command to find out more!
     
+
+# 3 更新之后pack/test组件包的位置
+
+ 所在目录：vendor/pack
