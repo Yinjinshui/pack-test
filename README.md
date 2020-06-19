@@ -45,6 +45,25 @@
     Use the `composer fund` command to find out more!
     
 
-# 3 更新之后pack/test组件包的位置
+# 3.更新之后pack/test组件包的位置
 
  所在目录：vendor/pack
+
+ 
+# 4.laravel配置路由访问
+
+
+    //=======调用自定义composer组件
+    Route::any('zidicomposer',function(){
+        $obj=new \Pack\Test\Service();
+        $msg=$obj->hello();
+        return $msg;
+    });
+    
+# 5.浏览器或者postman访问
+ 
+ demo:http://www.lar-demo.com/zidicomposer
+ 输出：   hello world!! 
+ 
+# 6.详细说明地址
+   https://blog.csdn.net/yinjinshui/article/details/106827071  
