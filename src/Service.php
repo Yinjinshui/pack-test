@@ -1,4 +1,5 @@
 <?php
+#命名空间
 namespace Pack\Test;
 
 class Service
